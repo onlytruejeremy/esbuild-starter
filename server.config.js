@@ -11,6 +11,13 @@ const main = () => {
     outdir: "public",
     logLevel: "info",
     watch: true,
+    loader: {
+      ".png": "file",
+      ".woff": "file",
+      ".woff2": "file",
+      ".jpg": "file",
+      ".jpeg": "file",
+    },
   });
   const serverParams = {
     port: 3000,
