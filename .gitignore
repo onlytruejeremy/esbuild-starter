@@ -1,0 +1,8 @@
+node_modules/
+public/ 
+
+#env vars
+.env 
+.env.local
+.env.development
+.env.production
